@@ -1,0 +1,52 @@
+{
+  "name": "compare-object-nicely",
+  "version": "0.0.1",
+  "author": "I Putu Yoga Permana <putuyoga@gmail.com> (https://putuyoga.com)",
+  "description": "Compare your objects nicely",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "es6",
+    "babel",
+    "eslint",
+    "jest",
+    "sass"
+  ],
+  "bugs": {
+    "url": "https://github.com/putuyoga/compare-object-nicely/issues",
+    "email": "putuyoga@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/putuyoga/compare-object-nicely.git"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build:lib": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "lint": "eslint ./src/**.js",
+    "coverage": "jest --coverage --config=conf/jest.config.js",
+    "test": "jest --config=conf/jest.config.js",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-es2015": "6",
+    "clean-webpack-plugin": "0.1.16",
+    "eslint": "4.5.0",
+    "eslint-loader": "1.9.0",
+    "html-webpack-plugin": "2.30.1",
+    "jest": "20.0.4",
+    "webpack": "3.5.5",
+    "webpack-dev-server": "2.7.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
