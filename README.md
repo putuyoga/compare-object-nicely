@@ -1,6 +1,6 @@
 # Compare-Object-Nicely
 
-Compare your object nicely.
+Compare your object nicely even your daughter love it.
 
 ## Prerequisites
 
